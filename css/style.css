@@ -1,3 +1,9 @@
-body {
-    margin: 0 auto;
+html, body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.banner {
+    background-color: #1C73A1;
+    height: -webkit-fill-available;
 }
