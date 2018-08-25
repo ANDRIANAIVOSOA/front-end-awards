@@ -260,3 +260,21 @@ footer {
 }
 
 /* BANNER END */
+
+footer {
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	background-color: #333;
+	margin-top: 30px;
+}
+
+footer i.fa {
+	margin: 10px;
+	font-size: 35px;
+	color: white;
+}
+
+footer i.fa:hover {
+	color: #4caf50;
+}
