@@ -3,7 +3,26 @@ html, body {
     overflow-x: hidden;
 }
 
+/* ANIMATION BANNER START */
+
 .banner {
-    background-color: #1C73A1;
-    height: -webkit-fill-available;
+    overflow: hidden;
 }
+  
+.sliding-background {
+    background: url("assets/banner.svg") repeat-x;
+    height: -webkit-fill-available;
+    width: 5076px;
+    animation: slide 60s linear infinite;
+}
+  
+@keyframes slide {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(-1692px, 0, 0);
+    }
+}
+
+/* ANIMATION BANNER END */
