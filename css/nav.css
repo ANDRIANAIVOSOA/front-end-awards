@@ -3,6 +3,7 @@ header {
     color: #FFF;
     padding: 20px;
     position: relative;
+    z-index: 5;
 }
 
 .site-title {
