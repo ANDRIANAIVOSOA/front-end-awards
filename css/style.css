@@ -11,7 +11,7 @@ html, body {
   
 .sliding-background {
     /*background: url("../assets/banner.svg") repeat-x;*/
-    background: url("../assets/cloud.jpg") repeat-x;
+    background: url("../assets/banner.svg") repeat-x;
     height: -webkit-fill-available;
     width: 5076px;
     animation: slide 60s linear infinite;
